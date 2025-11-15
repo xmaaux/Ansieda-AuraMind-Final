@@ -1,0 +1,91 @@
+body {
+    background: #e9ecf3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: #2a3d66;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+fieldset {
+    border: 2px solid #2a3d66;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #2a3d66;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+label {
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #2a3d66;
+}
+
+.opciones label {
+    display: block;
+    margin: 5px 0;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #2a3d66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #1e2d4f;
+}
